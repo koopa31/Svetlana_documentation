@@ -5,8 +5,8 @@ Welcome to Svetlana's documentation!
 
 The classifier is based on light-weight convolutional neural networks and is efficient with few annotations.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`installation` section to know how to install it, and have a look at
+:doc:`usage` to know more about how to use it.
 
 .. note::
 
