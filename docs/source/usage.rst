@@ -127,3 +127,18 @@ just like in Cellpose for instance.
 Prediction
 ----------------
 
+NN loading
+~~~~~~~~~~~~~~~~~~~
+
+Data loading
+~~~~~~~~~~~~~~~~~~~
+
+Choice of the batch size
+~~~~~~~~~~~~~~~~~~~
+
+Prediction of an image
+~~~~~~~~~~~~~~~~~~~
+
+Prediction of a batch of images
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
