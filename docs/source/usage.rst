@@ -129,16 +129,26 @@ Prediction
 
 NN loading
 ~~~~~~~~~~~~~~~~~~~
+Load network button asks the user to choose the weights file of the training the user wants to use.
 
 Data loading
 ~~~~~~~~~~~~~~~~~~~
+Choose the parent folder
 
 Choice of the batch size
 ~~~~~~~~~~~~~~~~~~~
+This variable defines how many patches are going to be processed at the same time (parallelization),
+in order to earn time. Obviously, the more RAM your GPU has, the greater this parameter can be chosen.
 
 Prediction of an image
 ~~~~~~~~~~~~~~~~~~~
 
+You can choose to predict only the image you are visualizing. Therefore, the prediction mask is going to be displayed.
+You can tick a case to also predict the confidence mask explained above.
+
 Prediction of a batch of images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You can choose to predict the whole folder. Therefore, no result is going to be displayed, but all the results will be stored
+in a folder called **Predictions**.
+You can also tick a case to predict the confidence mask explained above.
