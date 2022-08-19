@@ -133,7 +133,7 @@ Load network button asks the user to choose the weights file of the training the
 
 Data loading
 ~~~~~~~~~~~~~~~~~~~
-Choose the parent folder
+Choose the parent folder.
 
 Choice of the batch size
 ~~~~~~~~~~~~~~~~~~~
