@@ -120,7 +120,8 @@ The transfer learning
 ~~~~~~~~~~~~~~~~~~~
 
 If you don't want to train a NN from scratch, you can use the resume labeling button,
-and choose the NN weights file you want to start from.
+and choose the NN weights file you want to start from. This enable to recursively improve your NN performance,
+just like in Cellpose for instance.
 
 .. _prediction:
 Prediction
