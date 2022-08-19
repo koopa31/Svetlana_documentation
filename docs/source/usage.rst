@@ -37,8 +37,11 @@ The labelling
 ~~~~~~~~~~~~~~~~~~~
 Now the dataset is well organized, we can start annotating.
 
-First, data must be loaded, loading the parent folder. Then, there are two ways to label,
-whatever the type of image (2D, 3D etc).
+First, data must be loaded, loading the parent folder. Then, a patch size around the ROI must be chosen
+(the bigger the more contextual information). This patch size can be either automatically estimated, based on the biggest ROI in the mask,
+or set by the user.
+
+Finally, there are two ways to label, whatever the type of image (2D, 3D etc).
 
 #. Letting Svetlana propose patches one after another in a random order (default way).
 #. Clicking on the objects, then clicking the label number. Can be useful in case the dataset is unbalanced in terms of cells number of each class in the image. For that, activate the option ticking the corresponding case.
@@ -67,22 +70,57 @@ It is a rainbow mask varying from blue (low confidence) to red (high confidence)
 Training
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Data loading
+~~~~~~~~~~~~~~~~~~~
+A load data button is dedicated to loading the labels binary file generated in the Svetlana folder.
+It contains all the useful information to perform the training.
 
-.. autofunction:: lumache.get_random_ingredients
+Choosing the NN
+~~~~~~~~~~~~~~~~~~~
+First choose 2D or 3D to get the list of appropriate NN architectures as a function of
+the type of image you are going to process.
+Then a lot of architectures are available (see paper for more details).
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+The optimization parameters
+~~~~~~~~~~~~~~~~~~~
+The main parameters are present in the GUI. But if you want to setup more precisely
+the parameters, a JSON configuration file is present in Svetlana folder (created in the parent folder).
+You can change the decay parameters of the learning rate as well as the weights decay of ADAM optimizer.
 
-.. autoexception:: lumache.InvalidKindError
+The data augmentation
+~~~~~~~~~~~~~~~~~~~
+A very basic data augmentation is available, but using the configuration file,it is possible to perform all the complex data augmentations proposed in the Albumentations
+library. To do so, please refer to the `documentation <https://albumentations.ai/docs/getting_started/transforms_and_targets/>`_,
+and add all the needed parameters to the JSON configuration file.
 
-For example:
+**Example:**
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Gaussian blurring in documentation :
+
+.. code-block:: python
+
+    GaussianBlur(blur_limit=(3, 7), sigma_limit=0, always_apply=False, p=0.5)
+
+
+Equivalent in JSON configuration file:
+
+.. code-block:: json
+
+    "GaussianBlur": {
+          "apply": "False",
+          "blur_limit": "(3, 7)",
+          "sigma_limit": "0",
+          "p": "0.5"
+      }
+
+
+where _apply_ means you want this data augmentation to be applied or not.
+
+The transfer learning
+~~~~~~~~~~~~~~~~~~~
+
+If you don't want to train a NN from scratch, you can use the resume labeling button,
+and choose the NN weights file you want to start from.
 
 .. _prediction:
 Prediction
