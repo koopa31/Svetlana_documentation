@@ -116,6 +116,13 @@ Equivalent in JSON configuration file:
 
 where _apply_ means you want this data augmentation to be applied or not.
 
+The patch multiplied by a dilated mask (optional)
+~~~~~~~~~~~~~~~~~~~
+As shown in the paper, it is possible to reduce the contextual information around the object in the patch.
+To do so, we dilate the segmentation mask of the patch and multiply the image by it (see paper for more details).
+This can be set in the configuration file setting the apply option to True. Moreover, the user can choose the size of the structural element for the dilation in voxels.
+
+
 The transfer learning
 ~~~~~~~~~~~~~~~~~~~
 
