@@ -1,10 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to Svetlana's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Svetlana** is a Napari plugin developed in Python, dedicated to the classification of segmentation masks. It has mainly been developed for biological imaging, but it can be applied to any kind of segmented image.
+
+The classifier is based on light-weight convolutional neural networks and is efficient with few annotations.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
