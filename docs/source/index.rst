@@ -12,7 +12,7 @@ Check out the :doc:`installation` section to know how to install it, and have a 
 
    This project is under active development.
 
-.. figure:: https://github.com/koopa31/Svetlana_documentation/blob/ffa1f5c19d3a7ee7ff5fe89bc3fdc57d13f1194e/docs/images/patch.png?raw=true
+.. figure:: https://raw.githubusercontent.com/koopa31/Svetlana_documentation/862757c68f03017f1a4b0133eaa5a95058944bb3/docs/images/napari.png
     :width: 100 %
 
 
