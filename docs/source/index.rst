@@ -12,6 +12,10 @@ Check out the :doc:`installation` section to know how to install it, and have a 
 
    This project is under active development.
 
+.. figure:: https://github.com/koopa31/Svetlana_documentation/blob/ffa1f5c19d3a7ee7ff5fe89bc3fdc57d13f1194e/docs/images/patch.png?raw=true
+    :width: 100 %
+
+
 Contents
 --------
 
