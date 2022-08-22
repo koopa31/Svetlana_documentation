@@ -122,6 +122,14 @@ As shown in the paper, it is possible to reduce the contextual information aroun
 To do so, we dilate the segmentation mask of the patch and multiply the image by it (see paper for more details).
 This can be set in the configuration file setting the apply option to True. Moreover, the user can choose the size of the structural element for the dilation in voxels.
 
+.. figure:: docs/images/patch.png
+    :width: 30 %
+
+    Without multiplying by dilated mask
+.. figure:: docs/images/dilated_patch.png
+    :width: 30 %
+
+    Multiplying by dilated mask
 
 The transfer learning
 ~~~~~~~~~~~~~~~~~~~
