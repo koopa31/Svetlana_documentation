@@ -116,11 +116,19 @@ Equivalent in JSON configuration file:
 
 where _apply_ means you want this data augmentation to be applied or not.
 
-The patch multiplied by a dilated mask (optional)
+Adjusting the contextual information (optional)
 ~~~~~~~~~~~~~~~~~~~
 As shown in the paper, it is possible to reduce the contextual information around the object in the patch.
-To do so, we dilate the segmentation mask of the patch and multiply the image by it (see paper for more details).
-This can be set in the configuration file setting the apply option to True. Moreover, the user can choose the size of the structural element for the dilation in voxels.
+To do so, we dilate the segmentation mask of the patch and multiply them (see paper for more details).
+This can be set in the configuration file setting the "dilate_mask" option to True. Moreover, the user can choose the size
+of the structural element for the dilation in voxels.
+
+.. code-block:: json
+
+    "dilation": {
+                "dilate_mask": "False",
+                "str_element_size": "10"
+            }
 
 .. figure:: https://github.com/koopa31/Svetlana_documentation/blob/ffa1f5c19d3a7ee7ff5fe89bc3fdc57d13f1194e/docs/images/patch.png?raw=true
     :width: 30 %
