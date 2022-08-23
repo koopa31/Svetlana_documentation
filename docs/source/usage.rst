@@ -1,9 +1,6 @@
 Usage
 =====
 
-Note that Svetlana works with all kinds of image types (2D, 3D, multichannel).
-A Youtube tutorial video is available here.
-
 .. _data_organization:
 Organizing the data
 ------------
