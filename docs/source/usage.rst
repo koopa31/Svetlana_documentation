@@ -45,7 +45,7 @@ Finally, there are two ways to label, whatever the type of image (2D, 3D etc).
 
 In all cases, the **labels must be given clicking on a number** from 1 to N (the maximum number of classes).
 The user can set in the interface the maximum number of classes he wants to deactivate all the other buttons. For example,
-if you work on a 2-class problem, then set the class number o 2, and all the other numbers from 3 to 9 won't work. This maximum number
+if you work on a 2-class problem, then set the class number to 2, and all the other numbers from 3 to 9 won't work. This maximum number
 can be changed at any time during labelling.
 
 **If you make a mistake labelling**, you can cancel and go back to the previous ROI clicking "R" on the keyboard.
