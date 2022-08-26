@@ -118,7 +118,7 @@ Adjusting the contextual information (optional)
 As shown in the paper, it is possible to reduce the contextual information around the object in the patch.
 To do so, we dilate the segmentation mask of the patch and multiply them (see paper for more details).
 This can be set in the configuration file setting the "dilate_mask" option to True. Moreover, the user can choose the size
-of the structural element for the dilation in voxels.
+of the structural element for the dilation in voxels. Obviously, the larger it is, the more contextual information is allowed.
 
 .. code-block:: json
 
