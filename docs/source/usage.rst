@@ -43,6 +43,13 @@ Finally, there are two ways to label, whatever the type of image (2D, 3D etc).
 #. Letting Svetlana propose patches one after another in a random order (default way).
 #. Clicking on the objects, then clicking the label number. Can be useful in case the dataset is unbalanced in terms of cells number of each class in the image. For that, activate the option ticking the corresponding case.
 
+In all cases, the **labels must be given clicking on a number** from 1 to N (the maximum number of classes).
+The user can set in the interface the maximum number of classes he wants to deactivate all the other buttons. For example,
+if you work on a 2-class problem, then set the class number o 2, and all the other numbers from 3 to 9 won't work. This maximum number
+can be changed at any time during labelling.
+
+**If you make a mistake labelling**, you can cancel and go back to the previous ROI clicking "R" on the keyboard.
+
 Saving the result
 ~~~~~~~~~~~~~~~~~~~
 Once the user is satisfied by the number of ROI he made, he can click on
