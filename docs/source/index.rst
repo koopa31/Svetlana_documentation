@@ -11,7 +11,9 @@ learn more about our method reading the related paper.
 First check out the :doc:`installation` section to know how to install it.
 
 A Youtube tutorial video is available here. You can also have a look at :doc:`usage` to know more about advanced
-features.
+features. Two demo images similar, to the ones in the tutorial video, are available in the
+`git repository <https://bitbucket.org/koopa31/napari_svetlana/src/main/>`_, so you can easily
+reproduce it, and test the features by yourself.
 
 .. note::
 
