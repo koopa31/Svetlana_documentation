@@ -32,7 +32,8 @@ The labeling
 ~~~~~~~~~~~~~~~~~~~
 Once the dataset is well organized, we can start labeling.
 
-First, the data must be loaded, loading the parent folder. Then, a patch size around the ROI must be chosen
+First, the data must be loaded, loading the parent folder. Be careful, it is **not possible to drag and drop** the folder
+into Napari to load the data. Then, a patch size around the ROI must be chosen
 (the bigger the more contextual information). This patch size can be either automatically estimated, based on the biggest ROI in the mask,
 or set by the user. Be careful with this feature, as if you have a huge outlier in your segmentation mask, this optimal patch size is obviously going to be too large.
 
