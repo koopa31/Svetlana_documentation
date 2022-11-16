@@ -179,8 +179,8 @@ Thanks to the `Grad-CAM <https://ieeexplore.ieee.org/document/8237336>`_ method,
 displaying the pixels as a heat map. Indeed, the location of the pixels that were the most decisive in the decision taken by the network are highlighted (warm colors).
 Also, for 2D images only, a Grad-CAM variant called guided Grad-CAM is available. It is a combination of edges and grad-CAM (see paper for more details). Both methods are computed at the same times and shown in two different overlays.
 
-While the case is checked, the user can click on as many cells as he/she wants.
-
 .. figure:: https://raw.githubusercontent.com/koopa31/Svetlana_documentation/f8d80ee61ee2f2a3a2919effab507fa2a2de1930/docs/images/grad_cam.PNG
     :width: 30 %
     Grad-CAM example
+
+While the case is checked, the user can click on as many cells as he/she wants.
