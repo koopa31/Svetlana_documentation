@@ -175,5 +175,8 @@ You can also tick a case to predict the confidence masks for the whole folder.
 Interpretation module of the result
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Thanks to the `Grad-CAM <https://ieeexplore.ieee.org/document/8237336>`_ method, it is possible to obtain an interpretation of the way the network makes its decision, by
+Thanks to the `Grad-CAM <https://ieeexplore.ieee.org/document/8237336>`_ method, if the corresponding case is checked, it is possible to obtain an interpretation of the way the network makes its decision, by
 displaying the pixels as a heat map. Indeed, the location of the pixels that were the most decisive in the decision taken by the network are highlighted (warm colors).
+Also, for 2D images only, a Grad-CAM variant called guided Grad-CAM is available. It is a combination of edges and grad-CAM (see paper for more details). Both methods are computed at the same times and shown in two different overlays.
+
+While the the case is checked, the user can click on as many cells as he/she wants.
