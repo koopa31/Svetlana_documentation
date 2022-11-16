@@ -171,3 +171,9 @@ Prediction of a batch of images
 
 You can choose to predict the whole folder. Therefore, no result is going to be displayed, but all the results will be stored in a folder called **Predictions**.
 You can also tick a case to predict the confidence masks for the whole folder.
+
+Interpretation module of the result
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Thanks to the `Grad-CAM <https://ieeexplore.ieee.org/document/8237336>`_ method, it is possible to obtain an interpretation of the way the network makes its decision, by
+displaying the pixels as a heat map. Indeed, the location of the pixels that were the most decisive in the decision taken by the network are highlighted (warm colors).
