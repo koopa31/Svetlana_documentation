@@ -164,7 +164,10 @@ in order to reduce the computing times. Obviously, the more memory your GPU has,
 Prediction of an image
 ~~~~~~~~~~~~~~~~~~~
 
-You can choose to predict only the image you are visualizing. Therefore, the prediction mask is going to be displayed. You can tick a case to also provide confidence masks explained above.
+You can choose to predict only the image you are visualizing. Therefore, the prediction mask is going to be displayed.
+You can tick a case to also provide confidence masks explained above.
+Once the classification has been processed, you can click on *save objects statistics* to generate a xlsx file containing
+morphological features of the classified objects in this image.
 
 Prediction of a batch of images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -172,11 +175,20 @@ Prediction of a batch of images
 You can choose to predict the whole folder. Therefore, no result is going to be displayed, but all the results will be stored in a folder called **Predictions**.
 You can also tick a case to predict the confidence masks for the whole folder.
 
+Once the entire folder has been processed, a xlsx file containing morphological features of each
+classified object is generated in the folder called Svetlana.
+
+Saving a mask for each label
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A dedicated button computes a mask for each label, i.e. for a 2-class problem, it will generate a mask of objects
+labeled 1 and another one for objects labeled 2.
+
 Interpretation module of the result
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Thanks to the `Grad-CAM <https://ieeexplore.ieee.org/document/8237336>`_ method, if the corresponding case is checked, it is possible to obtain an interpretation of the way the network makes its decision, by
-displaying the pixels as a heat map. Indeed, the location of the pixels that were the most decisive in the decision taken by the network are highlighted (warm colors).
+displaying the pixels as a heat map. Indeed, the locations of the pixels that were the most decisive are highlighted (warm colors).
 Also, for 2D images only, a Grad-CAM variant called guided Grad-CAM is available. It is a combination of edges and grad-CAM (see paper for more details). Both methods are computed at the same times and shown in two different overlays.
 
 .. figure:: https://raw.githubusercontent.com/koopa31/Svetlana_documentation/f8d80ee61ee2f2a3a2919effab507fa2a2de1930/docs/images/grad_cam.PNG
