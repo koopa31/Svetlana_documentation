@@ -1,7 +1,7 @@
 Welcome to Svetlana's documentation!
 ===================================
 
-**Svetlana** is a Napari plugin developed in Python, dedicated to the classification of segmentation masks.
+`Svetlana <https://www.napari-hub.org/plugins/napari-svetlana>`_ is a Napari plugin developed in Python, dedicated to the classification of segmentation masks.
 It has mainly been developed for biological imaging, but it can be applied to any kind of 2D, 3D or multichannel
 segmented image.
 
@@ -10,7 +10,7 @@ learn more about our method reading the related paper.
 
 First check out the :doc:`installation` section to know how to install it.
 
-A Youtube tutorial video is available here. You can also have a look at :doc:`usage` to know more about advanced
+A Youtube tutorial video is available `here <https:www.youtube.com>`_. You can also have a look at :doc:`usage` to know more about advanced
 features. **Two demo images**, similar to the ones of the tutorial video, are available in the
 `git repository <https://bitbucket.org/koopa31/napari_svetlana/src/main/>`_, so you can easily
 reproduce it, and test the features by yourself.
