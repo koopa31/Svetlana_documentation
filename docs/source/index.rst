@@ -20,7 +20,7 @@ reproduce it, and test the features by yourself.
    This project is still under active development. We welcome any suggestions for improvement from users.
     Thank you
 
-.. figure:: https://raw.githubusercontent.com/koopa31/Svetlana_documentation/862757c68f03017f1a4b0133eaa5a95058944bb3/docs/images/napari.png
+.. figure:: https://raw.githubusercontent.com/koopa31/Svetlana_documentation/main/docs/images/napari.png
     :width: 100 %
 
 
