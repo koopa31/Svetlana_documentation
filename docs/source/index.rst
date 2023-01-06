@@ -15,6 +15,23 @@ features. **Two demo images**, similar to the ones of the tutorial video, are av
 `git repository <https://bitbucket.org/koopa31/napari_svetlana/src/main/>`_, so you can easily
 reproduce it, and test the features by yourself.
 
+If you use this plugin, please cite the paper:
+
+.. code-block:: bibtex
+
+    @unpublished{weiss:hal-03927879,
+      TITLE = {{Svetlana: a Supervised Segmentation Classifier for Napari}},
+      AUTHOR = {Weiss, Pierre and Cazorla, Cl{\'e}ment and Morin, Renaud},
+      URL = {https://hal.inria.fr/hal-03927879},
+      NOTE = {working paper or preprint},
+      YEAR = {2023},
+      MONTH = Jan,
+      PDF = {https://hal.inria.fr/hal-03927879/file/main_nature.pdf},
+      HAL_ID = {hal-03927879},
+      HAL_VERSION = {v1},
+    }
+
+
 .. note::
 
    This project is still under active development. We welcome any suggestions for improvement from users.
