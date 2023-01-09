@@ -6,7 +6,7 @@ It has mainly been developed for biological imaging, but it can be applied to an
 segmented image.
 
 The classifier is based on light-weight convolutional neural networks and is efficient with few annotations. You can
-learn more about our method reading the related paper.
+learn more about our method reading the `related paper <https://hal.inria.fr/hal-03927879>`_.
 
 First check out the :doc:`installation` section to know how to install it.
 
