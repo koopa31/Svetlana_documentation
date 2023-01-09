@@ -154,7 +154,13 @@ By default, the weights and network saved in the previous training will be used.
 
 Data loading
 ~~~~~~~~~~~~~~~~~~~
-Choose the parent folder.
+Choose the parent folder containing the images to process. By default, the folder which has just been chosen for
+the labelling and the training will be used.
+
+Note that **drag and drop** option does not exist for either data or network. Thus, we recommend that you either put the
+images to be processed with the training images, or create a folder on the same model as the training folder (Images, Masks),
+containing the images to be processed. In the second case, this folder must be loaded manually using the button provided for
+this purpose (load data).
 
 Choice of the batch size
 ~~~~~~~~~~~~~~~~~~~
