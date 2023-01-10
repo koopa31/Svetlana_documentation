@@ -115,11 +115,15 @@ Equivalent in JSON configuration file:
 
 where _apply_ indicates whether you want this data augmentation to be applied or not.
 
-Adjusting the contextual information (optional)
+Adjusting the contextual information (optional, but crucial)
 ~~~~~~~~~~~~~~~~~~~
 As illustrated in the companion paper, it is possible to reduce the contextual information around the object in the patch.
 To do so, we dilate the segmentation mask and multiply the result with the patch (see the paper for more details).
 This can be set in the configuration file setting the "dilate_mask" option to True. Moreover, the user can choose the size of the structural element for the dilation in pixels/voxels. Obviously, the larger it is, the more contextual information is allowed.
+
+Although optional, **this functionality is extremely important**, as depending on your application it can be crucial to achieving
+good results. For instance, in case you want to discriminate between objects that are very close to each other, we strongly
+recommend the use of this feature.
 
 .. code-block:: json
 
