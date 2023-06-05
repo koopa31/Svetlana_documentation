@@ -11,9 +11,8 @@ learn more about our method reading the `related paper <https://hal.inria.fr/hal
 First check out the :doc:`installation` section to know how to install it.
 
 A Youtube tutorial video is available `here <https://www.youtube.com/watch?v=u_FKuHta-RE>`_. You can also have a look at :doc:`usage` to know more about advanced
-features. **Two demo images**, similar to the ones of the tutorial video, are available in the
-`git repository <https://bitbucket.org/koopa31/napari_svetlana/src/main/>`_, so you can easily
-reproduce it, and test the features by yourself.
+features. **Two demo images**, identical to the ones of the tutorial video, are available in the annotation plugin using
+the button **TRY ON DEMO IMAGE**. Feel free to use them to familiarize yourself with the plugin.
 
 If you use this plugin, please cite the paper:
 
