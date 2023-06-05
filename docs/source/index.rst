@@ -16,6 +16,8 @@ the button **TRY ON DEMO IMAGE**. Feel free to use them to familiarize yourself 
 
 If you use this plugin, please cite the paper:
 
+Cazorla, C., Weiss, P., & Morin, R. (2023). Svetlana: a Supervised Segmentation Classifier for Napari.
+
 .. code-block:: bibtex
 
     @unpublished{weiss:hal-03927879,
