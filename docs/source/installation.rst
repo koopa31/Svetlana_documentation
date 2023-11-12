@@ -9,9 +9,9 @@ First, we advise you to create a conda environment in Python 3.9, in which you w
 	conda create -n svetlana_env python=3.9
 	conda activate svetlana_env
 	conda install pip
-	python -m pip install "napari[all]" --upgrade
+	python -m pip install "napari[all]"==0.4.17
 
-Then, Svetlana can be installed either directly from Napari's plugin manager, or typing:
+It is essential to install this particular version of Napari, as Svetlana is not compatible with later versions. Then, Svetlana can be installed either directly from Napari's plugin manager, or typing:
 
 .. code-block:: console
 
