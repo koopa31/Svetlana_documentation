@@ -6,7 +6,7 @@ It has mainly been developed for biological imaging, but it can be applied to an
 segmented image.
 
 The classifier is based on light-weight convolutional neural networks and is efficient with few annotations. You can
-learn more about our method reading the `related paper <https://hal.inria.fr/hal-03927879>`_.
+learn more about our method reading the `related paper <https://www.nature.com/articles/s41598-024-60916-8>`_.
 
 First check out the :doc:`installation` section to know how to install it.
 
@@ -16,20 +16,19 @@ the button **TRY ON DEMO IMAGE**. Feel free to use them to familiarize yourself 
 
 If you use this plugin, please cite the paper:
 
-Cazorla, C., Weiss, P., & Morin, R. (2023). Svetlana: a Supervised Segmentation Classifier for Napari.
+Cazorla, C., Weiss, P., & Morin, R. (2024). Svetlana a Supervised Segmentation Classifier for Napari.
 
 .. code-block:: bibtex
 
-    @unpublished{weiss:hal-03927879,
-      TITLE = {{Svetlana: a Supervised Segmentation Classifier for Napari}},
-      AUTHOR = {Weiss, Pierre and Cazorla, Cl{\'e}ment and Morin, Renaud},
-      URL = {https://hal.inria.fr/hal-03927879},
-      NOTE = {working paper or preprint},
-      YEAR = {2023},
-      MONTH = Jan,
-      PDF = {https://hal.inria.fr/hal-03927879/file/main_nature.pdf},
-      HAL_ID = {hal-03927879},
-      HAL_VERSION = {v1},
+    @article{cazorla2024svetlana,
+      title={Svetlana a supervised segmentation classifier for Napari},
+      author={Cazorla, Cl{\'e}ment and Morin, Renaud and Weiss, Pierre},
+      journal={Scientific Reports},
+      volume={14},
+      number={1},
+      pages={11604},
+      year={2024},
+      publisher={Nature Publishing Group UK London}
     }
 
 
