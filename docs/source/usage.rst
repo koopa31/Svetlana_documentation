@@ -77,6 +77,10 @@ Choosing the NN
 First choose 2D or 3D to get the appropriate list of neural network architectures.
 Then pick the architecture you like the best. For most tasks, we advise the use of a simple network such as 'light_NN_3_5' or 'light_NN_3_4'
 
+Classes unbalance
+~~~~~~~~~~~~~~~~~~~
+In certain circumstances, it can be impossible to get a balanced dataset, which means approximately the same number of labels for each class. A tick case makes it possible to weight the loss to compensate this phenomenon.
+
 The optimization parameters
 ~~~~~~~~~~~~~~~~~~~
 The main parameters (number of epochs, learning rate, batch size) are available in the GUI. 
