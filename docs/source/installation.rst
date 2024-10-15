@@ -24,7 +24,7 @@ using the `CuPy package <https://cupy.dev/>`_. Unfortunately, CuPy needs CUDA to
 
 .. code-block:: console
 
-    conda install cudatoolkit=10.2
+    conda install cudatoolkit=11.5
 
 Also note that the library `Cucim <https://pypi.org/project/cucim/>`_ that we use to improve these performances, computing morphological operations on GPU
 is unfortunately only available for Linux systems. Hence, if you are a Windows user, this installation is not necessary.
